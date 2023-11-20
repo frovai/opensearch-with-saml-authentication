@@ -6,16 +6,16 @@
 
 |Environment|Production                |
 |--------|-----------------------------|
-|Conta   |XXXXXXXXXXXX                 |
-|Serviço |Opensearch                   |
+|Account   |XXXXXXXXXXXX                 |
+|Service |Opensearch                   |
 |Engine  |Elasticsearch 7.10           |
-|Nome do recurso|elasticsearch-opensearch-prd |
-|Url de acesso|https://elasticsearch.MYDOMAINNAME.com.br/_plugin/kibana/|
+|Name of resource|elasticsearch-opensearch-prd |
+|Url Access|https://elasticsearch.MYDOMAINNAME.com.br/_plugin/kibana/|
 |Nodes   |3                            |
-|Tipo    |Master and Slave               |
+|Kind    |Master and Slave               |
 |Family  |t3.small.search              |
-|Disco   |20GB                         |
-|Conta SAML|SERVICEACCOUNTE-MAIL@MYDOMAINNAME.com.br|
+|Disk   |20GB                         |
+|SAML Account|SERVICEACCOUNTE-MAIL@MYDOMAINNAME.com.br|
 |App name SAML|Elastic Search Prd      |
 
 ## Architecture Schema
