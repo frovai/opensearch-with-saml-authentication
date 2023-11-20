@@ -4,7 +4,7 @@ variable "domain_name" {
 }
 
 variable "custom_endpoint" {
-  default = "elasticsearchloja.MYDOMAINNAME.com.br"
+  default = "elasticsearch.MYDOMAINNAME.com.br"
 }
 
 variable "custom_endpoint_certificate_arn" {
@@ -13,6 +13,7 @@ variable "custom_endpoint_certificate_arn" {
 
 variable "engine_version" {
   type = string
+  # Kind of engine, select between OpenSearch or ElasticSearch
   #default = "OpenSearch_2.5"
   default = "Elasticsearch_7.10"
 }
@@ -22,7 +23,7 @@ variable "instance_type" {
 }
 
 variable "instance_count" {
-  type = numberous ownership in reposi
+  type = string
   default = "3"
 }
 
